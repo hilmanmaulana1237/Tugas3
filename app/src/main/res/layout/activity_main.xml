@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <!-- Implicit Intent: Browser -->
+    <Button
+        android:id="@+id/button_browser"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_browser"
+        android:backgroundTint="@color/warnabiru"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/count_initial_value"
+        android:textSize="160sp"
+        android:gravity="center"
+        android:background="#FFFF00"
+        app:layout_constraintTop_toBottomOf="@id/button_toast"
+        app:layout_constraintBottom_toTopOf="@id/button_count"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_count"
+        android:backgroundTint="@color/warnabiru"
+        app:layout_constraintTop_toBottomOf="@id/show_count"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Explicit Intent: pindah ke Activity 2 -->
+    <Button
+        android:id="@+id/button_switchpage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_pindah"
+        android:backgroundTint="@color/warnabiru"
+        app:layout_constraintTop_toBottomOf="@id/button_count"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <!-- MAP -->
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_map"
+        app:layout_constraintTop_toBottomOf="@id/button_browser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- DIAL -->
+    <Button
+        android:id="@+id/button_dial"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_dial"
+        app:layout_constraintTop_toBottomOf="@id/button_map"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- SHARE -->
+    <Button
+        android:id="@+id/button_share"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_share"
+        app:layout_constraintTop_toBottomOf="@id/button_dial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Pindahkan TOAST agar berada setelah SHARE -->
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_toast"
+        app:layout_constraintTop_toBottomOf="@id/button_share"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
