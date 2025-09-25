@@ -45,6 +45,3 @@ Membaca materi dan mengerjakan **Layout (portrait & landscape), Activity kedua, 
 1. Buka project di **Android Studio** → **Sync Gradle**  
 2. Pilih emulator/HP (USB debugging aktif) → **Run ▶**  
 3. Uji semua tombol (**Switch Page**, **Browse**, **Map**, **Dial**, **Share**) dan rotasi ke **Landscape**
-
-
-## 🗂️ Struktur Proyek
