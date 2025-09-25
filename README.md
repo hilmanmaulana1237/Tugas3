@@ -8,7 +8,7 @@ NIM: **1237050020**
 ---
 
 ## 🖼️ Preview
-![Preview Main (Portrait)](11a.png)
+![Preview Main (Portrait)](1a.png)
 
 ## 🖼️ Running Aplikasi Layout 1
 ![Preview Main (Landscape)](2a.png)
@@ -17,7 +17,7 @@ NIM: **1237050020**
 ![Preview Main (Landscape)](2b.png)
 
 ## 🖼️ Preview Landscape
-![Preview Activity Kedua](preview-3a.png)
+![Preview Activity Kedua](3a.png)
 
 ---
 
