@@ -8,11 +8,16 @@ NIM: **1237050020**
 ---
 
 ## 🖼️ Preview
-![Preview Main (Portrait)](preview3a.png)
-![Preview Main (Landscape)](preview3b.png)
-![Preview Activity Kedua](preview3c.png)
+![Preview Main (Portrait)](11a.png)
 
-> Letakkan gambar di root repo atau folder `preview/` lalu sesuaikan path-nya.
+## 🖼️ Running Aplikasi Layout 1
+![Preview Main (Landscape)](2a.png)
+
+## 🖼️ Running Aplikasi Layout 2
+![Preview Main (Landscape)](2b.png)
+
+## 🖼️ Preview Landscape
+![Preview Activity Kedua](preview-3a.png)
 
 ---
 
