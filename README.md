@@ -21,25 +21,30 @@ NIM: **1237050020**
 
 ---
 
-## 📚 Deskripsi Singkat
-Implementasi:
-- **Layout ganda** (portrait & landscape) menggunakan **ConstraintLayout** *(atau RelativeLayout sesuai materi)*
-- **Activity kedua (`MainActivity2`)** dengan **Explicit Intent** dari `MainActivity`
-- **Implicit Intent**:
-  - **Browser** (`ACTION_VIEW` + URL)
-  - **Map** (`ACTION_VIEW` + `geo:` URI)
-  - **Dialer** (`ACTION_DIAL` + `tel:`)
-  - **Share** (`ACTION_SEND` + `text/plain`)
-- **Counter & Toast** pada halaman utama
+## Deskripsi Singkat — Tugas 3
+Membaca materi dan mengerjakan **Layout (portrait & landscape), Activity kedua, serta Intent (Explicit & Implicit)** di Android:
+
+- Menyusun layout **portrait & landscape** (ConstraintLayout/RelativeLayout sesuai materi)  
+- Membuat **Activity kedua (`MainActivity2`)** dan navigasi via **Explicit Intent**  
+- Menambahkan **Implicit Intent**: **Browser**, **Map**, **Dialer**, dan **Share**  
+- Memastikan **resources** (strings, colors, dimens) dan **manifest** tersusun benar
 
 ---
 
-## 🧩 Fitur
-- Tombol **Count** menambah angka pada `TextView`
-- Tombol **Toast** menampilkan nilai saat ini
-- Tombol **Switch Page** membuka `MainActivity2` (explicit)
-- Tombol **Browse / Map / Dial / Share** menjalankan implicit intent
+## 🎯 Target Hasil
+- Tombol **Switch Page** membuka `MainActivity2` (Explicit Intent)  
+- Tombol **Browse** membuka peramban ke URL  
+- Tombol **Map** membuka lokasi (geo URI)  
+- Tombol **Dial** membuka dialer dengan nomor pra-isi  
+- Tombol **Share** memunculkan chooser berbagi teks  
+- **Layout-land** aktif saat rotasi dan susunan komponen berubah sesuai desain
 
 ---
+
+## ▶️ Cara Menjalankan (Singkat)
+1. Buka project di **Android Studio** → **Sync Gradle**  
+2. Pilih emulator/HP (USB debugging aktif) → **Run ▶**  
+3. Uji semua tombol (**Switch Page**, **Browse**, **Map**, **Dial**, **Share**) dan rotasi ke **Landscape**
+
 
 ## 🗂️ Struktur Proyek
