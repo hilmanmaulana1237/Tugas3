@@ -14,10 +14,10 @@ NIM: **1237050020**
 ![Preview Main (Landscape)](2a.png)
 
 ## 🖼️ Running Aplikasi Layout 2
-![Preview Main (Landscape)](3.png)
+![Preview Main (Landscape)](2b.png)
 
 ## 🎞️ Preview Landscape
-![Preview Activity Kedua](4.mp4)
+![Preview Activity Kedua](3a.mp4)
 
 ---
 
