@@ -8,10 +8,10 @@ NIM: **1237050020**
 ---
 
 ## 🖼️ Preview
-![Preview Main (Portrait)](1.png)
+![Preview Main (Portrait)](1a.png)
 
 ## 🖼️ Running Aplikasi Layout 1
-![Preview Main (Landscape)](2.png)
+![Preview Main (Landscape)](2a.png)
 
 ## 🖼️ Running Aplikasi Layout 2
 ![Preview Main (Landscape)](3.png)
